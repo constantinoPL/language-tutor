@@ -1,0 +1,28 @@
+.section {
+  width: 100%;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  box-sizing: border-box;
+}
+
+.heading {
+  margin-bottom: 1.2rem;
+  color: #2d3a4a;
+}
+
+.list {
+  list-style: disc;
+  line-height: 1.7;
+  color: #333;
+  padding-left: 0;
+  width: 100%;
+  margin: 0;
+}
+
+.list li {
+  text-align: left;
+  margin-left: 1.5em;
+}

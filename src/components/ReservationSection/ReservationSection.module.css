@@ -1,0 +1,100 @@
+.section {
+  width: 100%;
+  margin: 2.5rem 0 3.5rem 0;
+  padding: 2.5rem 0 2rem 0;
+  background: #f9f9f9;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.heading {
+  font-size: 1.5rem;
+  color: #2d3a4a;
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+}
+.subheading {
+  display: block;
+  font-size: 1.5rem;
+  color: #2d3a4a;
+  font-weight: 700;
+  margin-top: 0.7rem;
+  line-height: 1.3;
+}
+
+.buttonsRow {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 2.2rem 0 1.5rem 0;
+  flex-wrap: wrap;
+}
+
+.button {
+  min-width: 220px;
+  min-height: 80px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  background: #e07a5f;
+  color: #fff;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.button:hover {
+  background: #d45a3b;
+  transform: translateY(-2px) scale(1.03);
+}
+.left {
+  background: #81b29a;
+}
+.left:hover {
+  background: #5e997a;
+}
+.right {
+  background: #e07a5f;
+}
+.right:hover {
+  background: #d45a3b;
+}
+.price {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-top: 0.3rem;
+}
+.centerButtonWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+.centerButton {
+  min-width: 320px;
+  min-height: 70px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 14px;
+  background: #f28482;
+  color: #fff;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.09);
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  padding: 1.1rem 1.5rem;
+}
+.centerButton:hover {
+  background: #e05a5a;
+  transform: translateY(-2px) scale(1.04);
+}
+.centerButtonSub {
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 0.2rem;
+}

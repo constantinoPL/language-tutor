@@ -1,0 +1,64 @@
+.section {
+  width: 100%;
+  margin: 2rem 0;
+  padding: 1.5rem 0;
+  background: #f5f7fa;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  box-sizing: border-box;
+}
+
+.heading {
+  margin-bottom: 2rem;
+  color: #2d3a4a;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.iconsRow {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.iconItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.iconCircle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  margin-bottom: 0.7rem;
+  overflow: hidden;
+  transition: background 0.2s;
+}
+
+.iconImg {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.iconPlus {
+  font-size: 2.2rem;
+  color: #2d3a4a;
+  font-weight: bold;
+}
+
+.caption {
+  text-align: center;
+  font-size: 1rem;
+  color: #444;
+  margin-top: 0.2rem;
+}

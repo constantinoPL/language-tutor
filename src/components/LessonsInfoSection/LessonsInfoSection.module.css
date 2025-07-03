@@ -1,0 +1,47 @@
+.section {
+  width: 100%;
+  margin: 2.5rem 0;
+  padding: 2rem 0;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  box-sizing: border-box;
+}
+
+.splitContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.block {
+  flex: 1 1 320px;
+  min-width: 280px;
+  max-width: 420px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 1.5rem 1.2rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+.heading {
+  font-size: 1.2rem;
+  color: #e07a5f;
+  margin-bottom: 1.1rem;
+  text-align: center;
+}
+
+.list {
+  list-style: disc inside;
+  color: #333;
+  padding-left: 0.5rem;
+  line-height: 1.7;
+  text-align: left;
+}
+
+.list li {
+  margin-bottom: 0.7em;
+}

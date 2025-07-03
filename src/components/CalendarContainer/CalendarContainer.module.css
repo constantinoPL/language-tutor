@@ -1,0 +1,11 @@
+.calendarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.calendarText {
+    max-width: 500px;
+    font-size: large;
+    font-weight: 600;
+}
