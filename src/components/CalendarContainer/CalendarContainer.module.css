@@ -1,11 +1,28 @@
 .calendarContainer {
+  width: 100%;
+  min-height: 340px;
+  margin: 2.5rem 0 2rem 0;
+  padding: 2.2rem 0 2rem 0;
+  box-sizing: border-box;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 3.5rem;
+  flex-wrap: nowrap;
 }
 
+@media (max-width: 900px) {
+  .calendarContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+}
 .calendarText {
-    max-width: 500px;
-    font-size: large;
-    font-weight: 600;
+  max-width: 520px;
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #2d3a4a;
+  text-align: left;
+  line-height: 1.6;
 }

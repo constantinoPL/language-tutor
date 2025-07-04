@@ -1,7 +1,8 @@
-import Calendar from 'react-calendar'
 
-import 'react-calendar/dist/Calendar.css';
+import Calendar from 'react-calendar';
 import styles from './CalendarContainer.module.css';
+import 'react-calendar/dist/Calendar.css';
+import './CalendarCustom.css';
 
 const CalendarContainer = () => {
     return (
@@ -13,7 +14,7 @@ const CalendarContainer = () => {
                 pomagam uczniom odkryć tajemnice polskiego języka, kultury i obyczajów. Niezależnie od Twojego poziomu 
                 – od początkującego do zaawansowanego – wspólnie osiągniemy Twoje cele językowe!
             </div>
-            <Calendar />
+            <Calendar locale="pl-PL" />
         </div>
     )
 }
