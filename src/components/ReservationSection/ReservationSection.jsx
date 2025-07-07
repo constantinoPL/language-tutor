@@ -11,7 +11,7 @@ export default function ReservationSection() {
         </span>
       </h2>
       <div className={styles.buttonsRow}>
-        <button className={styles.button + ' ' + styles.left}>Lekcja dla 2 osób<br /><span className={styles.price}>100 zł</span></button>
+        <button className={styles.button + ' ' + styles.left}>Lekcja dla 2 osób<br /><span className={styles.price}>110 zł</span></button>
         <button className={styles.button + ' ' + styles.right}>Lekcja indywidualna<br /><span className={styles.price}>85 zł</span></button>
       </div>
       <div className={styles.centerButtonWrapper}>
