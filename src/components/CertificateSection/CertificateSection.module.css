@@ -1,0 +1,38 @@
+.section {
+  width: 100%;
+  margin: 2.5rem 0;
+  padding: 2rem 0;
+  background: #f5f7fa;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  box-sizing: border-box;
+}
+
+.heading {
+  margin-bottom: 1.5rem;
+  color: #2d3a4a;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.certificateBlock {
+  display: flex;
+  justify-content: center;
+}
+
+.certificateLink {
+  display: inline-block;
+  background: #e0e7ff;
+  color: #232946;
+  font-weight: 600;
+  font-size: 1.15rem;
+  padding: 0.9em 2em;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  transition: background 0.2s, color 0.2s;
+}
+.certificateLink:hover {
+  background: #bfcfff;
+  color: #1a2233;
+}

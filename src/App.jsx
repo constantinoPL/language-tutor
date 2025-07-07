@@ -7,6 +7,7 @@ import RequirementsSection from './components/RequirementsSection/RequirementsSe
 import LessonsInfoSection from './components/LessonsInfoSection/LessonsInfoSection';
 import ReservationSection from './components/ReservationSection/ReservationSection';
 import TestimonialsSection from './components/TestimonialsSection/TestimonialsSection';
+import CertificateSection from './components/CertificateSection/CertificateSection';
 
 function App() {
  
@@ -18,6 +19,7 @@ function App() {
       <WhyMeSection />
       <RequirementsSection />
       <TestimonialsSection />
+      <CertificateSection />
       <LessonsInfoSection />
       <ReservationSection />
     </>
