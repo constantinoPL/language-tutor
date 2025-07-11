@@ -1,3 +1,16 @@
+.certificateThumb {
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+.certificateThumb:hover {
+  transform: scale(1.04);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.16);
+}
 .section {
   width: 100%;
   margin: 2.5rem 0;
