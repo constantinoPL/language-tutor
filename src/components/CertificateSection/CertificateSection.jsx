@@ -7,7 +7,7 @@ export default function CertificateSection() {
       <div className={styles.certificateBlock}>
         <a href="/assets/cert/Certyfikat%20C1.pdf" target="_blank" rel="noopener noreferrer">
           <img
-            src="/assets/cert/Certyfikat_C1_thumb.jpg"
+            src="/assets/cert/cert.png"
             alt="Certyfikat językowy miniatura"
             className={styles.certificateThumb}
           />
